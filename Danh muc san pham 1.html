@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh Mục Sản Phẩm</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        customGray: {
+                            50: '#f9fafb',
+                            100: '#f3f4f6'
+                        }
+                    }
+                }
+            }
+        }
+    </script> 
+    <style>
+        .break-words {
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            hyphens: auto;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gradient-to-br from-customGray-50 to-customGray-100 min-h-screen flex flex-col items-center justify-center p-5">
+    <div class="w-full max-w-6xl bg-white rounded-xl shadow-md overflow-hidden p-6">
+        <div class="w-full flex flex-wrap justify-between gap-2 py-3">
+            <!-- Cột 1 -->
+            <div class="flex-1 min-w-[100px] text-center p-3 rounded-lg bg-customGray-50 hover:bg-customGray-100 transition-all duration-200">
+                <a href="https://example.com/link1" target="_blank" class="block">
+                    <img src="https://cdn1.fahasa.com/media/wysiwyg/Thang-09-2025/Icon_1509_120x120.png" alt="15.9" class="w-[42px] h-[42px] object-contain mx-auto mb-2">
+                    <div class="text-sm font-medium text-gray-800 break-words whitespace-normal">15.9</div>
+                </a>
+            </div>
+            
+            <!-- Cột 2 -->
+            <div class="flex-1 min-w-[100px] text-center p-3 rounded-lg bg-customGray-50 hover:bg-customGray-100 transition-all duration-200">
+                <a href="https://example.com/link2" target="_blank" class="block">
+                    <img src="https://cdn1.fahasa.com/media/wysiwyg/Thang-09-2025/ico_foreignbooks.png" alt="Ngoại Văn" class="w-[42px] h-[42px] object-contain mx-auto mb-2">
+                    <div class="text-sm font-medium text-gray-800 break-words whitespace-normal">Ngoại Văn</div>
+                </a>
+            </div>
+            
+            <!-- Cột 3 -->
+            <div class="flex-1 min-w-[100px] text-center p-3 rounded-lg bg-customGray-50 hover:bg-customGray-100 transition-all duration-200">
+                <a href="https://example.com/link3" target="_blank" class="block">
+                    <img src="https://cdn1.fahasa.com/media/wysiwyg/Thang-04-2025/Icon_Sboook_120x120.png" alt="SBooks" class="w-[42px] h-[42px] object-contain mx-auto mb-2">
+                    <div class="text-sm font-medium text-gray-800 break-words whitespace-normal">SBooks</div>
+                </a>
+            </div>
+            
+            <!-- Cột 4 -->
+            <div class="flex-1 min-w-[100px] text-center p-3 rounded-lg bg-customGray-50 hover:bg-customGray-100 transition-all duration-200">
+                <a href="https://example.com/link4" target="_blank" class="block">
+                    <img src="https://cdn1.fahasa.com/media/wysiwyg/Thang-06-2025/Icon_TanViet_120x120.png" alt="Tân Việt" class="w-[42px] h-[42px] object-contain mx-auto mb-2">
+                    <div class="text-sm font-medium text-gray-800 break-words whitespace-normal">Tân Việt</div>
+                </a>
+            </div>
+            
+            <!-- Cột 5 -->
+            <div class="flex-1 min-w-[100px] text-center p-3 rounded-lg bg-customGray-50 hover:bg-customGray-100 transition-all duration-200">
+                <a href="https://example.com/link5" target="_blank" class="block">
+                    <img src="https://cdn1.fahasa.com/media/wysiwyg/Thang-01-2025/IconFlashSale120x120.png" alt="Flash Sale" class="w-[42px] h-[42px] object-contain mx-auto mb-2">
+                    <div class="text-sm font-medium text-gray-800 break-words whitespace-normal">Flash Sale</div>
+                </a>
+            </div>
+            
+            <!-- Cột 6 -->
+            <div class="flex-1 min-w-[100px] text-center p-3 rounded-lg bg-customGray-50 hover:bg-customGray-100 transition-all duration-200">
+                <a href="https://example.com/link6" target="_blank" class="block">
+                    <img src="https://cdn1.fahasa.com/media/wysiwyg/icon-menu/Icon_MaGiamGia_8px_1.png" alt="Mã Giảm Giá" class="w-[42px] h-[42px] object-contain mx-auto mb-2">
+                    <div class="text-sm font-medium text-gray-800 break-words whitespace-normal">Mã Giảm Giá</div>
+                </a>
+            </div>
+            
+            <!-- Cột 7 -->
+            <div class="flex-1 min-w-[100px] text-center p-3 rounded-lg bg-customGray-50 hover:bg-customGray-100 transition-all duration-200">
+                <a href="https://example.com/link7" target="_blank" class="block">
+                    <img src="https://cdn1.fahasa.com/media/wysiwyg/icon-menu/Icon_SanPhamMoi_8px_1.png" alt="Sản Phẩm Mới" class="w-[42px] h-[42px] object-contain mx-auto mb-2">
+                    <div class="text-sm font-medium text-gray-800 break-words whitespace-normal">Sản Phẩm Mới</div>
+                </a>
+            </div>
+            
+            <!-- Cột 8 -->
+            <div class="flex-1 min-w-[100px] text-center p-3 rounded-lg bg-customGray-50 hover:bg-customGray-100 transition-all duration-200">
+                <a href="https://example.com/link8" target="_blank" class="block">
+                    <img src="https://cdn1.fahasa.com/media/wysiwyg/Thang-01-2024/ChoDoCu.png" alt="Chợ Đồ Cũ" class="w-[42px] h-[42px] object-contain mx-auto mb-2">
+                    <div class="text-sm font-medium text-gray-800 break-words whitespace-normal">Chợ Đồ Cũ</div>
+                </a>
+            </div>
+            
+            <!-- Cột 9 -->
+            <div class="flex-1 min-w-[100px] text-center p-3 rounded-lg bg-customGray-50 hover:bg-customGray-100 transition-all duration-200">
+                <a href="https://example.com/link9" target="_blank" class="block">
+                    <img src="https://cdn1.fahasa.com/media/wysiwyg/Duy-VHDT/ICON/Icon_DonSi_120x120.png" alt="Bán Sỉ" class="w-[42px] h-[42px] object-contain mx-auto mb-2">
+                    <div class="text-sm font-medium text-gray-800 break-words whitespace-normal">Bán Sỉ</div>
+                </a>
+            </div>
+            
+            <!-- Cột 10 -->
+            <div class="flex-1 min-w-[100px] text-center p-3 rounded-lg bg-customGray-50 hover:bg-customGray-100 transition-all duration-200">
+                <a href="https://example.com/link10" target="_blank" class="block">
+                    <img src="https://cdn1.fahasa.com/media/wysiwyg/Thang-06-2024/icon_ManngaT06.png" alt="Manga" class="w-[42px] h-[42px] object-contain mx-auto mb-2">
+                    <div class="text-sm font-medium text-gray-800 break-words whitespace-normal">Manga</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

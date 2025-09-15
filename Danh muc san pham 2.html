@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Danh Mục Sản Phẩm</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        customGray: {
+                            50: '#f9fafb',
+                            100: '#f3f4f6'
+                        },
+                        customRed: '#dc2626'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans bg-gradient-to-br from-customGray-50 to-customGray-100 min-h-screen flex flex-col items-center justify-center p-5">
+    <div class="w-full max-w-6xl bg-white rounded-xl shadow-md overflow-hidden p-6">
+        <div class="flex items-center mb-6 w-[203.42px] h-[29.7px] sm:w-auto sm:h-auto sm:mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-800 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+            <h2 class="text-xl font-bold text-gray-800 whitespace-nowrap">Danh mục sản phẩm</h2>
+        </div>
+
+        <div class="w-full flex flex-wrap justify-between gap-2 py-3">
+            <!-- Cột 1 -->
+            <div class="flex-1 min-w-[100px] text-center p-3 rounded-lg bg-customGray-50 hover:bg-customGray-100 transition-all duration-200 transform hover:-translate-y-1.5 hover:shadow-lg category-item">
+                <a href="link1" target="_blank" class="block">
+                    <img src="https://cdn1.fahasa.com/media/wysiwyg/HUYEN-1/8936235570006-1.jpg" alt="Conan Movie 2025" class="w-[100px] h-[100px] object-contain mx-auto mb-2" />
+                    <div class="text-sm font-medium text-gray-800 break-words whitespace-normal category-text transition-colors duration-300 hover:text-customRed hover:-translate-y-0.5">Conan Movie 2025</div>
+                </a>
+            </div>
+
+            <!-- Cột 2 -->
+            <div class="flex-1 min-w-[100px] text-center p-3 rounded-lg bg-customGray-50 hover:bg-customGray-100 transition-all duration-200 transform hover:-translate-y-1.5 hover:shadow-lg category-item">
+                <a href="link2" target="_blank" class="block">
+                    <img src="https://cdn1.fahasa.com/media/wysiwyg/HUYEN-1/8935337532127.jpg" alt="Balo Xịn Giá Tốt" class="w-[100px] h-[100px] object-contain mx-auto mb-2" />
+                    <div class="text-sm font-medium text-gray-800 break-words whitespace-normal category-text transition-colors duration-300 hover:text-customRed hover:-translate-y-0.5">Balo Xịn Giá Tốt</div>
+                </a>
+            </div>
+
+            <!-- Cột 3 -->
+            <div class="flex-1 min-w-[100px] text-center p-3 rounded-lg bg-customGray-50 hover:bg-customGray-100 transition-all duration-200 transform hover:-translate-y-1.5 hover:shadow-lg category-item">
+                <a href="link3" target="_blank" class="block">
+                    <img src="https://cdn1.fahasa.com/media/wysiwyg/HUYEN-1/6902957275668-2-removebg-preview.png" alt="Thiết Bị Số" class="w-[100px] h-[100px] object-contain mx-auto mb-2" />
+                    <div class="text-sm font-medium text-gray-800 break-words whitespace-normal category-text transition-colors duration-300 hover:text-customRed hover:-translate-y-0.5">Thiết Bị Số</div>
+                </a>
+            </div>
+
+            <!-- Cột 4 -->
+            <div class="flex-1 min-w-[100px] text-center p-3 rounded-lg bg-customGray-50 hover:bg-customGray-100 transition-all duration-200 transform hover:-translate-y-1.5 hover:shadow-lg category-item">
+                <a href="https://example.com/link4" target="_blank" class="block">
+                    <img src="https://cdn1.fahasa.com/media/wysiwyg/Thang-08-2025/SGK-Lop3-1.jpg" alt="SGK 2025" class="w-[100px] h-[100px] object-contain mx-auto mb-2" />
+                    <div class="text-sm font-medium text-gray-800 break-words whitespace-normal category-text transition-colors duration-300 hover:text-customRed hover:-translate-y-0.5">SGK 2025</div>
+                </a>
+            </div>
+
+            <!-- Cột 5 -->
+            <div class="flex-1 min-w-[100px] text-center p-3 rounded-lg bg-customGray-50 hover:bg-customGray-100 transition-all duration-200 transform hover:-translate-y-1.5 hover:shadow-lg category-item">
+                <a href="https://example.com/link5" target="_blank" class="block">
+                    <img src="https://cdn1.fahasa.com/media/wysiwyg/Duy-VHDT/Danh-muc-san-pham/2502/8935244874389.jpg" alt="Lịch Sử Việt Nam" class="w-[100px] h-[100px] object-contain mx-auto mb-2" />
+                    <div class="text-sm font-medium text-gray-800 break-words whitespace-normal category-text transition-colors duration-300 hover:text-customRed hover:-translate-y-0.5">Lịch Sử Việt Nam</div>
+                </a>
+            </div>
+
+            <!-- Cột 6 -->
+            <div class="flex-1 min-w-[100px] text-center p-3 rounded-lg bg-customGray-50 hover:bg-customGray-100 transition-all duration-200 transform hover:-translate-y-1.5 hover:shadow-lg category-item">
+                <a href="https://example.com/link6" target="_blank" class="block">
+                    <img src="https://cdn1.fahasa.com/media/wysiwyg/Duy-VHDT/Danh-muc-tu-sach/8934974182375.jpg" alt="Văn Học" class="w-[100px] h-[100px] object-contain mx-auto mb-2" />
+                    <div class="text-sm font-medium text-gray-800 break-words whitespace-normal category-text transition-colors duration-300 hover:text-customRed hover:-translate-y-0.5">Văn Học</div>
+                </a>
+            </div>
+
+            <!-- Cột 7 -->
+            <div class="flex-1 min-w-[100px] text-center p-3 rounded-lg bg-customGray-50 hover:bg-customGray-100 transition-all duration-200 transform hover:-translate-y-1.5 hover:shadow-lg category-item">
+                <a href="https://example.com/link7" target="_blank" class="block">
+                    <img src="https://cdn1.fahasa.com/media/wysiwyg/Duy-VHDT/Danh-muc-san-pham/240715/atomichabit100x100.jpg" alt="Tâm Lý Kỹ Năng" class="w-[100px] h-[100px] object-contain mx-auto mb-2" />
+                    <div class="text-sm font-medium text-gray-800 break-words whitespace-normal category-text transition-colors duration-300 hover:text-customRed hover:-translate-y-0.5">Tâm Lý Kỹ Năng</div>
+                </a>
+            </div>
+
+            <!-- Cột 8 -->
+            <div class="flex-1 min-w-[100px] text-center p-3 rounded-lg bg-customGray-50 hover:bg-customGray-100 transition-all duration-200 transform hover:-translate-y-1.5 hover:shadow-lg category-item">
+                <a href="https://example.com/link8" target="_blank" class="block">
+                    <img src="https://cdn1.fahasa.com/media/wysiwyg/Duy-VHDT/Danh-muc-san-pham/bup-sen-xanh-100x100.png" alt="Thiếu Nhi" class="w-[100px] h-[100px] object-contain mx-auto mb-2" />
+                    <div class="text-sm font-medium text-gray-800 break-words whitespace-normal category-text transition-colors duration-300 hover:text-customRed hover:-translate-y-0.5">Thiếu Nhi</div>
+                </a>
+            </div>
+
+            <!-- Cột 9 -->
+            <div class="flex-1 min-w-[100px] text-center p-3 rounded-lg bg-customGray-50 hover:bg-customGray-100 transition-all duration-200 transform hover:-translate-y-1.5 hover:shadow-lg category-item">
+                <a href="https://example.com/link9" target="_blank" class="block">
+                    <img src="https://cdn1.fahasa.com/media/wysiwyg/Duy-VHDT/Danh-muc-san-pham/240715/hsk100x100.jpg" alt="Sách Học Ngoại Ngữ" class="w-[100px] h-[100px] object-contain mx-auto mb-2" />
+                    <div class="text-sm font-medium text-gray-800 break-words whitespace-normal category-text transition-colors duration-300 hover:text-customRed hover:-translate-y-0.5">Sách Học Ngoại Ngữ</div>
+                </a>
+            </div>
+
+            <!-- Cột 10 -->
+            <div class="flex-1 min-w-[100px] text-center p-3 rounded-lg bg-customGray-50 hover:bg-customGray-100 transition-all duration-200 transform hover:-translate-y-1.5 hover:shadow-lg category-item">
+                <a href="https://example.com/link10" target="_blank" class="block">
+                    <img src="https://cdn1.fahasa.com/media/wysiwyg/Duy-VHDT/ngoai-van-t1-24(1).jpg" alt="Ngoại Văn" class="w-[100px] h-[100px] object-contain mx-auto mb-2" />
+                    <div class="text-sm font-medium text-gray-800 break-words whitespace-normal category-text transition-colors duration-300 hover:text-customRed hover:-translate-y-0.5">Ngoại Văn</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
